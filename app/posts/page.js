@@ -21,7 +21,7 @@ export default async function PostsPage() {
 
   return (
     <div>
-      <h1 className="text-5xl font-extrabold">Posts Page</h1>
+      <h1 className="text-5xl font-extrabold dark:text-black">Posts Page</h1>
 
       {/* POSTS render*/}
         <div className="justify-center items-center mx-24">{postsJSX}</div>
